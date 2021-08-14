@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-#def carmichaels(n):
+#def carmichaels(n):asd
 #    check = False
 #    a = 1
 #    gamma = 1
