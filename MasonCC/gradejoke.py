@@ -1,9 +1,10 @@
-from PIL import Image
+import matplotlib.pyplot as plt
 import imageio
-import qrtools
+import numpy as np
 
 gif = imageio.get_reader('riddle.gif')
 num_frames = len(gif)
 
 for frame in gif:
-    print(frame)
+    imgplot = plt.imshow(frame, cmap='gray')
+    plt.show()
