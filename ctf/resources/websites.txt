@@ -1,0 +1,2 @@
+Image Metadata: http://exif.regex.info/exif.cgi
+Cipher Tools: http://rumkin.com/tools/cipher/
