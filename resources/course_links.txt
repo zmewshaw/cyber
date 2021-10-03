@@ -1,0 +1,2 @@
+Red Team Courses: https://institute.sektor7.net/
+Web App: https://portswigger.net/web-security/learning-path
