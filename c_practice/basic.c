@@ -1,7 +1,10 @@
 #include <stdio.h>
 
+// fgets(* "input\n, 50, addr + offset")
+
 int main() {
-    int var;
-    printf("%d", var);
+    char input[50];
+    scanf(input);
+    fgets();
     return 0;
 }
