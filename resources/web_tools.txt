@@ -2,4 +2,4 @@ Image Metadata: http://exif.regex.info/exif.cgi
 Cipher Tools: http://rumkin.com/tools/cipher/
 CyberChef: https://gchq.github.io/CyberChef/
 CWE Database: https://cwe.mitre.org/
-NVD Database: https://nvd.nist.gov/vuln/search
+IPPSEC Resources: https://ippsec.rocks/?#
