@@ -1,4 +1,4 @@
-// ghidra output
+// ghidra decompiler
 
 ulong check_input(void)
 

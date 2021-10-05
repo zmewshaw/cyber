@@ -20,12 +20,12 @@ unsigned long check_input(void)
   read_string = 0;
   printf("Enter a value: ");
 
-  fgets((char *)&read_string,0x32,stdin);
+  fgets((char *)&read_string,0x32,stdin); // sample stdin addr: 0x7fc6e11c1508
 
-  val = 0x1a;
+  val = 0x1a; // 26
   increment = 0;
-  while (increment < 0x19) {
-    if (*(char *)((long)&read_string + (long)increment) == err[increment]) { // ALL VALUES OF ERR ARE THE SAME
+  while (increment < 0x19) { // 25
+    if (*(char *)((long)&read_string + (long)increment) == err[increment]) { 
       val = val - 1;
     }
     increment = increment + 1;
