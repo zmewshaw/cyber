@@ -3,7 +3,7 @@
 // fgets(* "input\n, 50, addr + offset")
 
 int main() {
-    char input[50];
-    scanf(input);
+    signed char input = -128;
+    printf("%d", input);
     return 0;
 }
