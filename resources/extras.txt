@@ -1,0 +1,23 @@
+Tools:
+Image Metadata: http://exif.regex.info/exif.cgi
+Cipher Tools: http://rumkin.com/tools/cipher/
+CyberChef: https://gchq.github.io/CyberChef/
+CWE Database: https://cwe.mitre.org/
+IPPSEC Resources: https://ippsec.rocks/?#
+
+Extras:
+https://0x00sec.org/t/tricks-of-the-trade-from-5-years-in-offensive-cyber-security/15794
+https://0x00sec.org/t/services-tools-wiki/2123
+https://danyspin97.org/blog/colorize-your-cli/
+
+Parrot OS Checklist (only use parrot-upgrade for a general upgrade):
+Sublime
+GEF + Pips
+GEF Extras
+Ghidra
+Oh My Zsh
+(some cli colorizer)
+Firefox Bookmarks
+VPNs - https://askubuntu.com/questions/187511/how-can-i-use-a-ovpn-file-with-network-manager
+
+SCP VDI TO LAPTOP
