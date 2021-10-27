@@ -1,0 +1,26 @@
+function check(input)
+        local bytes = {}
+        local check = { 117, 109, 127, 11, 103, 106, 115, 103, 11, 18, 20, 20, 19 }
+        for i = 1, #input do
+            byte = input:byte(i)
+            byteafter = byte ~ 38
+            table.insert(bytes, byteafter)
+        end
+        print(table.concat(bytes))
+        print(table.concat(check))
+        return table.concat(bytes) == table.concat(check)
+end
+
+function main()
+
+        print('please enter a passcode')
+        a = io.read()
+
+        if  check(a) then
+                print('You win')
+        else
+                print('Fail')
+        end
+end
+
+main()
