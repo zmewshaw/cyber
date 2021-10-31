@@ -1,0 +1,19 @@
+Crypto:
+RSACtfToolkit
+
+Steg:
+(POP CAT): DigitalInvisibleInkToolkit, this tool is NCL specific.
+
+Cracking (use rockyou.txt first):
+ophcrack - uses rainbow table.
+look into hashcat
+fcrackzip - brute forces zip files.
+
+NTA (Network Traffic Analysis):
+
+Forensics:
+You can unzip docx.
+
+Logs:
+linux cut command.
+python import json
