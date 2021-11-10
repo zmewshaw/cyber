@@ -1,0 +1,21 @@
+CHECK = [124, 92, 164, 468, 124, 112, 68, 112, 468, 500, 508, 500, 512]
+function riddle(x)
+    step1 = xor(x, 0x46)
+    (step1 + 10) << 2
+end
+
+function main()
+    println("I am very fancy. Can you solve my riddle")
+    inp = readline()
+    bytes = Int.(collect(inp))
+    solve = riddle.(bytes)
+    if solve == CHECK
+        println("Congrats")
+    else
+        println("Nope")
+    end
+end
+
+if abspath(PROGRAM_FILE) == @__FILE__
+    main()
+end
